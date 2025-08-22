@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "FffMe2y7oAA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Mocks\\ChatSystem.Mocks.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aleks\\.nuget\\packages\\system.reactive\\6.0.1\\system.reactive.6.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

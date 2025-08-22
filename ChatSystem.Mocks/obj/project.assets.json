@@ -1,0 +1,168 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "System.Reactive/6.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Reactive.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "ChatSystem.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "ChatSystem.Network": "1.0.0",
+          "System.Reactive": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ChatSystem.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatSystem.Core.dll": {}
+        }
+      },
+      "ChatSystem.Network/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "System.Reactive": "6.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ChatSystem.Network.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ChatSystem.Network.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Reactive/6.0.1": {
+      "sha512": "rHaWtKDwCi9qJ3ObKo8LHPMuuwv33YbmQi7TcUK1C264V3MFnOr5Im7QgCTdLniztP3GJyeiSg5x8NqYJFqRmg==",
+      "type": "package",
+      "path": "system.reactive/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net6.0-windows10.0.19041/_._",
+        "build/net6.0/_._",
+        "buildTransitive/net6.0-windows10.0.19041/_._",
+        "buildTransitive/net6.0/_._",
+        "icon.png",
+        "lib/net472/System.Reactive.dll",
+        "lib/net472/System.Reactive.xml",
+        "lib/net6.0-windows10.0.19041/System.Reactive.dll",
+        "lib/net6.0-windows10.0.19041/System.Reactive.xml",
+        "lib/net6.0/System.Reactive.dll",
+        "lib/net6.0/System.Reactive.xml",
+        "lib/netstandard2.0/System.Reactive.dll",
+        "lib/netstandard2.0/System.Reactive.xml",
+        "lib/uap10.0.18362/System.Reactive.dll",
+        "lib/uap10.0.18362/System.Reactive.pri",
+        "lib/uap10.0.18362/System.Reactive.xml",
+        "readme.md",
+        "system.reactive.6.0.1.nupkg.sha512",
+        "system.reactive.nuspec"
+      ]
+    },
+    "ChatSystem.Core/1.0.0": {
+      "type": "project",
+      "path": "../ChatSystem.Core/ChatSystem.Core.csproj",
+      "msbuildProject": "../ChatSystem.Core/ChatSystem.Core.csproj"
+    },
+    "ChatSystem.Network/1.0.0": {
+      "type": "project",
+      "path": "../ChatSystem.Network/ChatSystem.Network.csproj",
+      "msbuildProject": "../ChatSystem.Network/ChatSystem.Network.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "ChatSystem.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Aleks\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Mocks\\ChatSystem.Mocks.csproj",
+      "projectName": "ChatSystem.Mocks",
+      "projectPath": "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Mocks\\ChatSystem.Mocks.csproj",
+      "packagesPath": "C:\\Users\\Aleks\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Mocks\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Aleks\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Core\\ChatSystem.Core.csproj": {
+              "projectPath": "C:\\Users\\Aleks\\OneDrive\\Documents\\CoreApplicantsRepo\\ChatSystem.Core\\ChatSystem.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.303/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
